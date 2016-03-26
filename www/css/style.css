@@ -1,0 +1,69 @@
+/* Empty. Add your own CSS if you like */
+
+html, body, #mapid {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 90%;
+        float: left;
+      } 
+#textid {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 10%;
+        float: right;
+ }
+
+#background {
+	background-image: url(background.jpg);
+}
+#alert {
+	margin-top: 8%;
+	font-size: 1100%;
+	color: red;
+}
+#texts {
+	padding-top: 4%;
+	font-size: 300%;
+	font-weight: bolder;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+#call {
+	margin-top: 8%;
+	font-size: 1100%;
+	color: green;
+}
+#notify {
+	margin-top: 8%;
+	font-size: 1100%;
+	color: blue;
+	letter-spacing: 5%;
+}
+#nodeco {
+	text-decoration: none;
+	color: white;
+}
+#alert {   
+  animation-duration: 400ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+    color: blue;
+  }
+
+  75% {
+   opacity: 0;
+   color: orange;
+ }
+
+ 100% {
+   opacity: 1;
+   color: red;
+ }
+}
