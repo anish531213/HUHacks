@@ -31,7 +31,7 @@ html, body, #mapid {
 	color: white;
 }
 #bisonsafe {
-	padding-top: 10%;
+	padding-top: 5%;
 	font-size: 500%;
 	font-weight: bolder;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -40,7 +40,7 @@ html, body, #mapid {
 }
 
 #call {
-	margin-top: 8%;
+	margin-top: 6%;
 	font-size: 800%;
 	color: green;
 }
