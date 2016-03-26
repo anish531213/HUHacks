@@ -110,6 +110,7 @@ function showPosition(position) {
    console.log("Longitude: " + position.coords.longitude); 
    myFirebaseRef.push({
     location: {
+      name: 'Rajjwal',
       character: 'Guard',
       latitude: position.coords.latitude,
       longitude: position.coords.longitude,
@@ -131,6 +132,7 @@ function showPos(position) {
    console.log("Longitude: " + position.coords.longitude); 
    myFirebaseRef.push({
     location: {
+      name: 'Rajjwal',
       character: 'Emergency',
       latitude: position.coords.latitude,
       longitude: position.coords.longitude,
