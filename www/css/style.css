@@ -20,7 +20,7 @@ html, body, #mapid {
 }
 #alert {
 	margin-top: 8%;
-	font-size: 1100%;
+	font-size: 800%;
 	color: red;
 }
 #texts {
@@ -30,15 +30,23 @@ html, body, #mapid {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
 }
+#bisonsafe {
+	padding-top: 10%;
+	font-size: 500%;
+	font-weight: bolder;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+
+}
 
 #call {
 	margin-top: 8%;
-	font-size: 1100%;
+	font-size: 800%;
 	color: green;
 }
 #notify {
 	margin-top: 8%;
-	font-size: 1100%;
+	font-size: 800%;
 	color: blue;
 	letter-spacing: 5%;
 }

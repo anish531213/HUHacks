@@ -109,12 +109,12 @@ function showPosition(position) {
    console.log("Latitude: " + position.coords.latitude);
    console.log("Longitude: " + position.coords.longitude); 
    myFirebaseRef.push({
-    guardlocation: {
     location: {
+      character: 'Guard',
       latitude: position.coords.latitude,
       longitude: position.coords.longitude,
     }
-}});
+});
 }
 
 function OnClicked() {
@@ -130,10 +130,10 @@ function showPos(position) {
    console.log("Latitude: " + position.coords.latitude); 
    console.log("Longitude: " + position.coords.longitude); 
    myFirebaseRef.push({
-    emergencylocation : {
     location: {
+      character: 'Emergency',
       latitude: position.coords.latitude,
       longitude: position.coords.longitude,
     }
-}});
+});
 }
